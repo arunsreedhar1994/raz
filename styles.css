@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    cursor: pointer;
+    background-color: #555;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
+
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    border-bottom:2px solid #44D62C;
+    display: flex;
+    font-weight: 500;
+    position: fixed;
+}
+.logo{
+    width: 35px;
+    padding-left: 150px;
+}
+.menu{
+    padding-top: 7px;
+    text-align: center;
+    font-size: 15px;
+    color: #888;
+    display: inline-flex;
+    gap: 75px;
+
+
+}
+.header p{
+    min-width: 44px;
+    text-align: center;
+    font-size: 15px;
+    color: #888;
+    margin-left: 75px;
+    padding-top: 7px;
+    cursor: pointer;
+
+}
+
+.search{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 75px;
+    padding-top: 4px;
+}
+.cart{
+    padding-right: 150px;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 75px;
+    padding-top: 8px;
+}
+.header p:hover{
+    color: white;
+}
+.cart:hover{
+    color: white;
+}
+.search:hover{
+    color: white;
+}
+.header2{
+    margin-top: -1px;
+    display: flex;
+    width: 100%;
+    height: 45px;
+    background-color: #555;
+
+}
+.header2 p{
+    color: white;
+    margin-left: 320px;
+}
+.learnmore:hover{
+    text-decoration: underline;
+}
+.section{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    padding-bottom: 10px;
+}
+.left-section{
+    margin-left: 0;
+    margin-right: 10px;
+    width: 50%;
+    height: 550px;
+}
+.right-section{
+margin-left: 18px;
+margin-top: 500px;
+width: 50%;
+height: 550px;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #0f0e0e;
+    display: flex;
+    margin-top: 500px;
+}
+.c1{
+    color: #999;
+    font-weight: lighter;
+    font-size: small;
+    margin-top: 10px;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
+}
+.c1 p:hover{
+    color: white;
+
+}
+.arro{
+    color:#44D62C;
+    display: flex;
+}
+.section p{
+    display: flex;
+}
+.c1-head{
+    color: white; 
+    font-weight: normal; 
+}
+#horizontal-line{
+    width:1175px;
+    height: 1px;
+    background-color: #999;
+    margin-left: 150px;
+    position: absolute;
+
+}
+.bottom-footer{
+    width: 100%;
+    height: 60px;
+    background-color: #0f0e0e;
+    margin-top: -2px;
+    display: flex;
+}
+.bftr{
+    padding-left: 150px;
+    padding-top: 10px;
+}
+.bftrhvr:hover{
+    color: white;
+    text-decoration: underline;
+}
